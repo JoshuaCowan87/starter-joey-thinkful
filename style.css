@@ -1,0 +1,31 @@
+header: {
+background-color: #0b1c51;
+  margin-bottom: 40px;
+}
+
+hearder h1 : {
+font-size: 52px;
+color: #fff;
+text-align: center;
+}
+
+header nav: {
+justify-content: center
+display: flex;
+}
+
+header nav ul li a: {
+font: montserrat;
+color: #fff;
+}
+
+@media all and (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    
+   hearder h1 : {
+font-size: 48px;
+color: #fff;
+}
